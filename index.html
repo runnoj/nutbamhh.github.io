@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phusc Anh Vaf harem</title>
+</head>
+<body>
+<script src="./app.js"></script>
+    <div style="display: flex;">
+    <input type="text" placeholder="Tên ny Phúc Anh" id="name">
+    <button onclick="add()">Thêm</button>
+    </div>
+    <button>Xóa</button>
+    <button>Xóa</button>     
+
+        <script>
+        function add() {
+            // let sp4 = {id:4,name:"Mpgh"}
+            // sanphams.push(sp4)
+            let id = sanphams[sanphams.length - 1].id + 1
+            let name = document.getElementById("name").value;
+            sanphams.push({id,name})
+            console.log(sanphams);
+        }
+        
+
+
+    </script>
+</body>
+</html>
